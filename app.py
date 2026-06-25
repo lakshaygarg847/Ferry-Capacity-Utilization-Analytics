@@ -11,9 +11,8 @@ st.title("🚢 Ferry Capacity Utilization Analytics")
 
 # Load Data
 df = pd.read_csv(
-    "data/Toronto Island Ferry Tickets.csv"
+    "Toronto Island Ferry Tickets.csv"
 )
-
 # Convert Timestamp
 df["Timestamp"] = pd.to_datetime(
     df["Timestamp"]
